@@ -1,0 +1,57 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fcfd;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Timeline container */
+.timeline {
+  position: relative;
+  width: 90%;
+  height: 4px;
+  background: linear-gradient(to right, #0077ff, #00c6a2);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  border-top: 3px solid #01bfa5; 
+  padding-top: 50px;
+}
+
+.timeline-item {
+  text-align: center;
+  position: relative;
+  width: 20%;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+}
+
+.circle {
+  width: 20px;
+  height: 16px;
+  background-color: #0284c7;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-75%);
+}  
+/* Year heading */
+.timeline-item h3 {
+  color: #0284c7;
+  font-size: 20px;
+  margin-bottom: 10px;
+} 
+
+/* Circle on top */
+
